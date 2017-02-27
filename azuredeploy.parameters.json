@@ -1,0 +1,72 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "uksouth"
+    },
+    "vmName": {
+      "value": "trenddsmvm1"
+    },
+    "vmAdminName": {
+      "value": "AzureAdmin"
+    },
+    "vmAuthType": {
+      "value": "password"
+    },
+    "vmAdminPassword": {
+      "value": "AzureP@55w0rd123"
+    },
+    "vmSize": {
+      "value": "Standard_D2_v2"
+    },
+    "managerPort": {
+      "value": "443"
+    },
+    "heartbeatPort": {
+      "value": "4120"
+    },
+    "databaseOption": {
+      "value": "new"
+    },
+    "dsmAdminName": {
+      "value": "dsmadmin"
+    },
+    "dsmAdminPassword": {
+      "value": "AzureP@55w0rd123"
+    },
+    "dbName": {
+      "value": "bendsm"
+    },
+    "dbAdminName": {
+      "value": "AzureAdmin"
+    },
+    "dbAdminPassword": {
+      "value": "P@55w0rd"
+    },
+    "existingSQLServerName": {
+      "value": "testdsmsqldb"
+    },
+    "publicIPAddressName": {
+      "value": "trenddsmpip1"
+    },
+    "publicIPDomainNameLabel": {
+      "value": "trenddmsdns1"
+    },
+    "virtualNetworkName": {
+      "value": "dsmvnet01"
+    },
+    "networkExists": {
+      "value": "new"
+    },
+    "networkAddress": {
+      "value": "10.2.0.0/16"
+    },
+    "subnetVMName": {
+      "value": "vmsubnet"
+    },
+    "subnetVMNaddress": {
+      "value": "10.2.0.0/24"
+    }
+  }
+}
